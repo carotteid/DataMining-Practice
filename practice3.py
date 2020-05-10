@@ -15,7 +15,7 @@ w_d = 'C:/Users/harpn/OneDrive - Universidad de Guanajuato/Mineria/practice/'
 i_f = w_d+'survey_results_public.csv'
 
 data = pd.read_csv(i_f, encoding = 'utf-8')
-values = data['Country']
+values = data['DevType']
 
 datos = dict(col.Counter(values)) 
 maxi = max(datos.items(), key=op.itemgetter(1))[0]
