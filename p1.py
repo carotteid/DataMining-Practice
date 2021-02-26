@@ -3,7 +3,7 @@
 """
 Created on Sun Sep 13 14:36:40 2020
 
-@author: carrot
+@author: carrot editada 25/02/2021
 """
 
 import pandas as pd
